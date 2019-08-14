@@ -22,7 +22,8 @@ h1 {
 .new-thought-btn {
   background: white;
   height: 50px;
-  width: 80vw;
+  width: calc(80vw + 12px);
   border: 2px solid black;
   border-radius: 5px;
+  font-size: 24px;
 }
