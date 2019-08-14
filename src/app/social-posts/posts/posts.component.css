@@ -2,16 +2,24 @@
   height: 80vh;
   width: 80vw;
   border: 2px solid black;
+  margin: 10px;
 }
 
 .post-div {
   border-bottom: 2px solid #f3f1f7;
+  position: relative;
 
 }
 
 .postTitle {
   font-size: 24px;
 
+}
+
+.post-div button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
 }
 
 

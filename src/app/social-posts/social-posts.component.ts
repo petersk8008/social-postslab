@@ -27,7 +27,7 @@ export class SocialPostsComponent implements OnInit {
     this.posts.splice(index, 1);
   }
 
-  onAddHandler(newPost: object): void {
+  onAddHandler(newPost: Post): void {
     this.posts.push(newPost);
     this.toggleForm();
   }
