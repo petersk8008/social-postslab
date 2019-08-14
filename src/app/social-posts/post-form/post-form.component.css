@@ -1,0 +1,44 @@
+form {
+  width: 50%;
+  height: 80vh;
+  background: #B1DDEA;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+
+}
+
+form label{
+  font-size:  24px;
+  align-self: flex-start;
+  padding: 5px;
+  margin: 10px;
+}
+
+#title,
+#thought {
+  margin: 10px;
+  align-items: center;
+}
+
+#title {
+  width: 80%;
+  height: 30px;
+  border: 2px solid black;
+
+}
+
+#thought {
+  width: 80%;
+  height: 400px;
+  border: 2px solid black;
+}
+
+form button {
+  width: 80%;
+  height: 30px;
+  margin: 10px;
+}

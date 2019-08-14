@@ -1,0 +1,14 @@
+<h1>My Thoughts</h1>
+<app-post-form *ngIf="showForm === true" (onAdd)="onAddHandler($event)"></app-post-form>
+
+<button class="new-thought-btn" *ngIf="showForm === false" (click)="toggleForm()">New Thought</button>
+<div class="posts-div">
+  <app-posts
+    [ngClass]="'posts'"
+    *ngFor="let post of posts; index as i"
+    [post]="post"
+    [postIndex]="i"
+    (onRemove)="onRemoveHandler($event)"
+  ></app-posts>
+</div>
+

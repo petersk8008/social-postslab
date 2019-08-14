@@ -1,0 +1,27 @@
+* {
+  font-family: 'Dosis', sans-serif;
+}
+
+.posts-div {
+  height: 80vh;
+  width: 80vw;
+  border: 2px solid black;
+  background: white;
+  border-radius: 5px;
+  margin: 10px;
+
+}
+
+h1 {
+  font-family: 'Homemade Apple', cursive;
+  color: rgb(3, 169, 244);
+
+}
+
+.new-thought-btn {
+  background: white;
+  height: 50px;
+  width: 80vw;
+  border: 2px solid black;
+  border-radius: 5px;
+}
